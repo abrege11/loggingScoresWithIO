@@ -1,0 +1,45 @@
+
+
+body {
+	background-color: #222;
+  }
+
+.about{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	opacity: 0;
+	transition: all 1s;
+	transform: translateX(-100%);
+}
+
+.top-title, .left-section, .left-title, .left-content{
+	color: #fff;
+	display: grid;
+	place-items: center;
+	align-content: center;
+}
+
+
+.show{
+	opacity: 1;
+	transform: translateX(0%);
+}
+
+.resume{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	opacity: 0;
+	transition: all 1s;
+	transform: translateX(-100%);
+}
+  
+.portfolio{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	opacity: 0;
+	transition: all 1s;
+	transform: translateX(-100%);
+}

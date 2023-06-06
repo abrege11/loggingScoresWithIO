@@ -1,0 +1,38 @@
+const aboutElements = document.querySelectorAll('.about');
+const resumeElements = document.querySelectorAll('.resume');
+const portfolioElements = document.querySelectorAll('.portfolio');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting){
+      entry.target.classList.add('show');
+    } else {
+      entry.target.classList.remove('show');
+    }
+  });
+});
+
+const observer2 = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting){
+      entry.target.classList.add('show');
+    } else {
+      entry.target.classList.remove('show');
+    }
+  });
+});
+
+const observer3 = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting){
+      entry.target.classList.add('show');
+    } else {
+      entry.target.classList.remove('show');
+    }
+  });
+});
+
+
+aboutElements.forEach((el) => observer.observe(el));
+resumeElements.forEach((el) => observer2.observe(el));
+portfolioElements.forEach((el) => observer3.observe(el));

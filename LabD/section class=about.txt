@@ -1,0 +1,36 @@
+	<section class="about">
+			<div class="top-title">
+				<h1>About Abe</h1>					
+			</div>
+			<div class="left-section">
+				<div class="left-title">
+					<h1>what is abe brege all about?</h1>
+					<div class="left-content"> hello
+					</div>
+				</div>
+			</div>
+		</section>
+	<section class="resume">
+		<div class="top-title">
+			<h1>About Abe</h1>					
+		</div>
+		<div class="left-section">
+			<div class="left-title">
+				<h1>what is abe brege all about?</h1>
+				<div class="left-content"> hello
+				</div>
+			</div>
+		</div>
+	</section>
+		<section class="portfolio">
+			<div class="top-title">
+				<h1>About Abe</h1>					
+			</div>
+			<div class="left-section">
+				<div class="left-title">
+					<h1>what is abe brege all about?</h1>
+					<div class="left-content"> hello
+					</div>
+				</div>
+			</div>
+		</section>

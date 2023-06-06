@@ -1,0 +1,53 @@
+@keyframes tipsy{
+	0%{
+		transform: translateX(-50%)
+		translateY(-50%)
+		rotate(0deg)
+	}
+	100%{
+		transform: translateX(-50%)
+		translateY(-50%)
+		rotate(360deg)
+	}
+}
+
+.header .navbar .logo i{
+	color: #fff;
+	text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31;
+	transform: translateX(-50%)
+		translateY(-50%);
+	text-decoration: none;
+	font-size: 20px;
+	margin: 0 auto;
+	display: flex;
+	padding-top: 10px;
+	max-width: 300px;
+	padding-left: 150px;
+
+}
+.header .navbar .logo i:before, 
+.header .navbar .logo i:after{
+	content: '';
+	padding: .9em .4em;
+	position: absolute;
+	left: 100%;
+	width: 50%;
+	top: 50%;
+	display: block;
+	border: 15px solid #d9524a;
+	transform: translateX(-50%)
+	translateY(-50%)
+	rotate(0deg);
+	animation: 10s infinite alternate ease-in-out tipsy;
+	padding-left: 130px;
+
+}
+.header .navbar .logo i:before{
+	border-color: #d9524a #d9524a rgba(0, 0, 0, 0) rgba(0, 0, 0, 0); 
+	z-index: -1;
+}
+.header .navbar .logo i:after{
+	border-color:  rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #d9524a #d9524a;
+	box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);
+
+}
